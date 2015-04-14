@@ -15,11 +15,12 @@ import java.time.Duration;
  */
 public class AudioTrack {
     private Duration duration;  //The duration of the track, in seconds
+    private String title;
 
     public void setDuration(long minutes, long seconds)
     {
         this.duration = Duration.ofSeconds(seconds).plusMinutes(minutes);
-    }
+    } 
     
     public void setDuration (Duration duration)
     {
