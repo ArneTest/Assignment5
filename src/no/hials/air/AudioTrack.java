@@ -16,6 +16,8 @@ import java.time.Duration;
 public class AudioTrack {
     private Duration duration;  //The duration of the track, in seconds
     private String title;
+    
+    private String artist;
 
     public String getTitle() {
         return title;
