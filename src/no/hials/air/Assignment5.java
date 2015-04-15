@@ -12,7 +12,7 @@ package no.hials.air;
 public class Assignment5 {
 
 
- 	private long test;
+ 	private long test2;
 
     /**
      * @param args the command line arguments
