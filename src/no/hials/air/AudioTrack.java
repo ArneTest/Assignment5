@@ -17,6 +17,10 @@ public class AudioTrack {
     private Duration duration;  //The duration of the track, in seconds
     private String title;
 
+    public String getTitle() {
+        return title;
+    }
+
     public void setDuration(long minutes, long seconds)
     {
         this.duration = Duration.ofSeconds(seconds).plusMinutes(minutes);
