@@ -11,6 +11,9 @@ package no.hials.air;
  */
 public class Assignment5 {
 
+
+ 	private long test;
+
     /**
      * @param args the command line arguments
      */
