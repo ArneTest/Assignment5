@@ -18,6 +18,8 @@ public class AudioTrack {
     private String title;
     
     private String artist;
+    
+    private long date;
 
     public String getTitle() {
         return title;
